@@ -1,4 +1,4 @@
-public class Messages {
+public class BetterMessages {
 
     public static String greeting() {
         return "Hello World";
