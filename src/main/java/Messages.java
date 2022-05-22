@@ -1,4 +1,4 @@
-public class Main {
+public class Messages {
 
     public static String greeting() {
         return "Hello World";
