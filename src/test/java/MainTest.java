@@ -8,4 +8,11 @@ public class MainTest {
         String actual = Main.greeting();
         Assertions.assertEquals(expected, actual);
     }
+
+    @Test
+    void shouldReturnCIMessage() {
+        String expected = "New clone";
+        String actual = Main.cloned();
+        Assertions.assertEquals(expected, actual);
+    }
 }
